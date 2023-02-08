@@ -1,0 +1,7 @@
+Name: Elstan Bultonsheen
+Unity-id: ebulton
+
+Logic:
+    shellcode1 - relative addressing of string within the assembly code
+    shellcode2 - shift unityID by two characters in code then subtract to get unityID
+    shellcode3 - use execve to call /bin/ls
